@@ -1,1 +1,28 @@
+title: openSUSE-Community
+description: Multimedia codecs, NVidia drivers and more via one click install for the current openSUSE distributions
+url: "https://www.opensuse-community.org/"
+github: opensuse-community
+repository: opensuse-community/os-com.github.io
 theme: jekyll-theme-slate
+
+# Build settings
+plugins:
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-compose
+
+collections:
+  documentation:
+    output: "true"
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
