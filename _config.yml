@@ -9,7 +9,6 @@ repository: opensuse-community/os-com.github.io
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
 plugins:
   - jekyll-github-metadata
   - jekyll-paginate
@@ -30,3 +29,5 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+   - LICENSE
+   - README.md
