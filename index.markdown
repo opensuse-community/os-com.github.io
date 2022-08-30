@@ -13,7 +13,7 @@ While we welcome the openness and open source base of our favorite distribution,
 community easy and smooth: therefor, we provide a simple way to install the needed software which can not be provided
 directly by openSUSE.
 
-<img src="assets/img/button-color.png" alt="Geeko Image" width="128" class="center">
+<img src="assets/img/button-color.png" alt="Image of a Geeko" width="128" class="center">
 
 ## One-Click-Installers for openSUSE
 
