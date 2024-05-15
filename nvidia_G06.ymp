@@ -73,6 +73,7 @@
             </item>
         </software>
 </group>
+<<<<<<< HEAD
      <group distversion="openSUSE Leap 15.5">
         <name>NVIDIA Graphics Drivers</name>
         <summary>Proprietary nVidia Graphics Driver packages</summary>
@@ -97,6 +98,9 @@
         </software>
 </group>
 <group distversion="openSUSE Leap 15.6">
+=======
+     <group distversion="openSUSE Leap 15.2">
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
         <name>NVIDIA Graphics Drivers</name>
         <summary>Proprietary nVidia Graphics Driver packages</summary>
         <description>

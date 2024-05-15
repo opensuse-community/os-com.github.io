@@ -18,7 +18,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/tumbleweed</url>
+=======
+                <url>https://download.nvidia.com/opensuse/tumbleweed/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -28,6 +32,7 @@
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
             </item>
         </software>
+<<<<<<< HEAD
 </group>
    <group distversion="openSUSE Leap 15.4">
         <name>NVIDIA Graphics Drivers</name>
@@ -52,6 +57,9 @@
             </item>
         </software>
 </group>
+=======
+     </group>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
      <group distversion="openSUSE Leap 15.3">
         <name>NVIDIA Graphics Drivers</name>
         <summary>Proprietary nVidia Graphics Driver packages</summary>
@@ -64,7 +72,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/$releasever</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/$releasever/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -87,7 +99,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/$releasever</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/$releasever/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -110,7 +126,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.1</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/15.1/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -133,7 +153,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.0</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/15.0/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -144,7 +168,11 @@
             </item>
         </software>
 </group>
+<<<<<<< HEAD
 <group distversion="openSUSE Leap 15.5">
+=======
+<group distversion="openSUSE Leap 42.3">
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
         <name>NVIDIA Graphics Drivers</name>
         <summary>Proprietary nVidia Graphics Driver packages</summary>
         <description>
@@ -156,6 +184,7 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.5</url>
             </repository>
         </repositories>
@@ -180,6 +209,9 @@
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 600 series and newer GPUs.</description>
                 <url>https://download.nvidia.com/opensuse/leap/15.6</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/42.3/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>

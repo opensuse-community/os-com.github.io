@@ -18,7 +18,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 8xxx and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.1</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/15.1/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -41,7 +45,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 8xxx and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.0</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/15.0/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -52,7 +60,11 @@
             </item>
         </software>
 </group>
+<<<<<<< HEAD
     <group distversion="openSUSE Leap 15.5">
+=======
+    <group distversion="openSUSE Leap 42.3">
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
         <name>NVIDIA Graphics Drivers</name>
         <summary>Proprietary nVidia Graphics Driver packages</summary>
         <description>
@@ -64,7 +76,11 @@
                 <name>nVidia Graphics Drivers</name>
                 <summary>This will install the nVidia drivers from nvidia.com for you</summary>
                 <description>This package provides the closed-source NVIDIA graphics driver for GeForce 8xxx and newer GPUs.</description>
+<<<<<<< HEAD
                 <url>https://download.nvidia.com/opensuse/leap/15.5</url>
+=======
+                <url>https://download.nvidia.com/opensuse/leap/42.3/</url>
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
             </repository>
         </repositories>
         <software>
@@ -74,6 +90,7 @@
                 <description>NVIDIA driver for GF8 and later</description>
             </item>
         </software>
+<<<<<<< HEAD
 </group>
 </group>
     <group distversion="openSUSE Leap 15.6">
@@ -99,4 +116,7 @@
             </item>
         </software>
 </group>
+=======
+</group>        
+>>>>>>> ee50209ef7729aa101dc5a1bc4e5ccad7d146b5d
 </metapackage>

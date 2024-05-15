@@ -1,0 +1,31 @@
+<head>
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <!-- Multimedia codecs and more via one click</title> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}"> {% endif %}
+    <!-- Social: Twitter -->
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="twitter:image" content="/assets/img/button-color.png">
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:image" content="/assets/img/button-color.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+<!--
+	<meta name="title" content="openSUSE multimedia codecs and more via one click"/>
+	<meta name="description" content="Multimedia codecs, NVidia drivers and more via one click install for the current openSUSE."/>
+	<meta name="keywords" content="openSUSE, Multimedia, NVIDIA, MP3, DVD, DivX, MP4, x265, x264, WMV, WMA, MOV, KDE, GNOME, Codecs, patented, restricted, proprietary, software"/>
+-->
+	<meta name="robots" content="index, follow"/>
+	<meta name="content-language" content="en"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="openSUSE community"/>
+	<link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.url }}">
+	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.url }}" type="image/x-icon"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.url }}" />
+</head>
