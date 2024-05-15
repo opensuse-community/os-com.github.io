@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <!--
+        Additional community repositories for openSUSE Slowroll
+
+        For modifications, please contact tigerfoot@opensuse.org
+        Last modification: 2024-05-14 initial version based on Tumbleweed
+    -->
+    <group>
+        <name>openSUSE-Slowroll-community-repos</name>
+        <summary>Additional repositories for openSUSE Tumbleweed from the openSUSE community</summary>
+        <repositories>
+            <repository recommended="true" format="auto">
+                <!-- id: packman -->
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/</url>
+	</repository>
+		<repository recommended="true" format="auto">
+                <!-- id: packmane -->
+                <name>Packman Essentials Repository</name>
+                <summary>Packman Essential Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version. This "essential" subset of the Packman Repository only includes multimedia codecs, and therefore reduces the risk of package conflicts but also reduces the packages available. </description>
+                <url>https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Slowroll/Essentials/</url>
+        </repository>
+	<repository recommended="false" format="auto">
+	      <name>libdvdcss repository</name>
+              <summary>Repository with libdvdcss</summary>
+              <description>Encrypted DVD support</description>
+              <url>https://opensuse-guide.org/repo/openSUSE_Tumbleweed/</url>
+	    </repository>
+            <repository recommended="false" format="auto">
+	      <name>nVidia Graphics Drivers</name>
+              <summary>Repository providing proprietary nVidia graphics drivers</summary>
+              <description>After adding the repository run 'zypper inr' or an online update, and the correct drivers should get installed. Reboot afterwards.</description>
+              <url>https://download.nvidia.com/opensuse/tumbleweed/</url>
+	    </repository>
+       </repositories>
+    </group>
+</metapackage>

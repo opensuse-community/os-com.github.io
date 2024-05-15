@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- Additional Community Repositories for openSUSE 11.2
+     These are maintained by Francis Giannaros <francis@giannaros.org> -->
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <group>
+        <repositories>
+            <repository recommended="false" format="rpm-md">
+                <name>Packman Repository</name>
+                <summary>Packman Software Repository</summary>
+                <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+                <url>http://ftp.uni-erlangen.de/pub/mirrors/packman/suse/11.2/</url>
+            </repository>
+            <!--
+            <repository recommended="false" format="rpm-md">
+                <name>VideoLan Repository</name>
+                <summary>VideoLan Software Repository</summary>
+                <description>The additional VideoLan repository to provide you with VLC, Encrypted DVD support etc.</description>
+                <url>http://download.videolan.org/pub/videolan/vlc/SuSE/11.2/</url>
+            </repository> 
+            -->
+            <repository recommended="false" format="rpm-md">
+                <name>NVIDIA Repository</name>
+                <summary>NVIDIA Driver Repository</summary>
+                <description>Repository containing the drivers for NVIDIA graphics cards.</description>
+                <url>ftp://download.nvidia.com/opensuse/11.2/</url>
+            </repository>
+            <repository recommended="false" format="rpm-md">
+                <name>ATI Repository</name>
+                <summary>ATI Driver Repository</summary>
+                <description>Repository containing the drivers for ATI graphics cards. It provides the display driver files for the ATI RADEON (8500 and later), MOBILITY RADEON (M9 and later), RADEON XPRESS IGP and FireGL series of graphics graphics accelerators.</description>
+                <url>http://www2.ati.com/suse/11.2</url>
+            </repository>
+            <repository recommended="false" format="rpm-md">
+                <name>LXDE Repository</name>
+                <summary>Lightweight Desktop Environment</summary>
+                <description>The "Lightweight X11 Desktop Environment" is an extremely fast-performing and energy-saving desktop environment. Maintained by an international community of developers, it comes with a beautiful interface, multi-language support, standard keyboard short cuts and additional features like tabbed file browsing. LXDE uses less CPU and less RAM than other environments. It is especially designed for cloud computers with low hardware specifications, such as, netbooks, mobile devices (e.g. MIDs) or older computers.</description>
+                <url>http://download.opensuse.org/repositories/X11:/lxde/openSUSE_11.2/</url>
+            </repository>
+
+            <!--
+            <repository recommended="false" format="yast2">
+                <name>openSUSE Education</name>
+                <summary>Additional software-packages for educational projects</summary>
+                <description>An "add-on" DVD containing useful Educational Desktop and Server
+                    software for the regular openSUSE distribution. Find more information about the
+                    project and the provided packages on http://education.opensuse.org/ - and/or
+                    have a look at the provided Education patterns.</description>
+                <url>http://www.opensuse-education.org/download/repo/1.0/11.1</url>
+            </repository>
+            -->
+
+        </repositories>
+    </group>
+</metapackage>

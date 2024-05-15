@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+    <!--
+        Additional community repositories for openSUSE Leap 15.6
+        Maintained by the following authors:
+        * Martin Schlander <mschlander@opensuse.org>
+        * webmaster@opensuse-community.org
+        Changes : 2015-12-19 Move packman to gwdg inode.at is no more viable
+    -->
+  
+    <group distversion="3rd Party Repositories">
+        <repositories>
+		 <repository recommended="true" format="rpm-md">
+	      <name>Packman Repository</name>
+              <summary>Packman Software Repository</summary>
+              <description>Packman build software packages to enable users to easily install and remove software on Linux. More specifically, they do so for software that is not shipped as part of distributions or that are shipped as an outdated version.</description>
+              <url>http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_$releasever/</url>
+      </repository> 
+	      <repository recommended="false" format="auto">
+	      <name>Libdvdcss Repository</name>
+              <summary>Repository with libdvdcss</summary>
+              <description>Encrypted DVD support</description>
+              <url>http://opensuse-guide.org/repo/openSUSE_Leap_$releasever/</url>
+	      </repository> 
+      <repository recommended="false" format="auto">
+	      <name>nVidia Graphics Drivers</name>
+              <summary>Repository providing proprietary nVidia graphics drivers</summary>
+              <description>After adding the repository run 'zypper inr' or an online update, and the correct drivers should get installed. Reboot afterwards.</description>
+              <url>https://download.nvidia.com/opensuse/leap/$releasever</url>
+	    </repository>	   
+            <!--
+        <repository recommended="false" format="auto">
+                <name>AMD/ATI Graphics Drivers</name>
+                <summary>This provides proprietary fglrx packages, built by community members</summary>
+                <description>Proprietary AMD (formely ATI) fglrx drivers (HD5xxx or later). They can't be integrated into the openSUSE distribution because of licensing reasons.</description>
+                <url>http://geeko.ioda.net/mirror/amd-fglrx/openSUSE_Leap_15.6/</url>
+            
+        </repository>-->	
+<!--	<repository recommended="false" format="auto">
+                <name>Adobe Flash Plugin</name>
+                <summary>This provides the proprietary Adobe Flash web browser plugin</summary>
+                <description>This is a repository hosted by Adobe providing the non-free, non open source Adobe flash-plugin.</description>
+                <url>http://linuxdownload.adobe.com/linux/x86_64/</url>
+                </repository>   -->
+	</repositories>
+    </group>
+</metapackage>
